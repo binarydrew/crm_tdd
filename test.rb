@@ -17,12 +17,16 @@ class TestCrm < Test::Unit::TestCase
     assert_equal "abc@abc.com", @a.email
     assert_equal "Great guy", @a.notes
     assert_equal "1001", @a.id
-
   end
 
+  def test_display_attr
+    assert_equal "SteinWangabc@abc.comGreat guy1001", @a.display_attr
+  end
 	# def test_add_contact
 	#   assert_equal @b.contacts[0], @contact
 
 	# end
+
+
 
 end

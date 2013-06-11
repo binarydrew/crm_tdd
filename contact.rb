@@ -11,5 +11,8 @@ attr_accessor :first_name, :last_name, :email, :notes, :id
 	end
 
 
+  def display_attr
+    return "#{@first_name}" + "#{@last_name}" + "#{@email}" + "#{@notes}" + "#{@id}"
+  end
 
 end
