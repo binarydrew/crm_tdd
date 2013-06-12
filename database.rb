@@ -19,7 +19,7 @@ attr_accessor :contacts
  #  	@contacts << Database.new(profile[0],profile[1], profile[2], profile[3], profile[4])
  #  end
 
-def display_all_contacts(contact)
+def add_contact(contact)
   @contacts << contact
 end
 

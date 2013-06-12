@@ -29,9 +29,10 @@ class TestCrm < Test::Unit::TestCase
 
 	# end
 
-  def test_display_all_contacts
-    assert_equal @b.display_all_contacts(@a), @b.contacts
+  def test_add_contact
+    assert_equal @b.add_contact(@a), @b.contacts
   end
+
 
 
 end
